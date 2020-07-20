@@ -1,1 +1,0 @@
-Big O analysis:Task0:9Task1:18+log4Task2:13+18*log3Task3:100+log3Task4:109+log4
