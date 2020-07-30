@@ -3,11 +3,11 @@ Read file into texts and calls.
 It's ok if you don't understand how to read files.
 """
 import csv
-
-with open('/Users/chenhuihui/Desktop/texts.csv', 'r') as f:
+with open('texts.csv', 'r') as f:
     reader = csv.reader(f)
     texts = list(reader)
-with open('/Users/chenhuihui/Desktop/calls.csv', 'r') as f:
+
+with open('calls.csv', 'r') as f:
     reader = csv.reader(f)
     calls = list(reader)
 """
